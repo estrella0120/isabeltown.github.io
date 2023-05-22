@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+  </head>
+	
+		<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   <a class="navbar-brand mx-2" href="index.html">
+      <img src="images.png" alt="Bootstrap" width="45px">
+	  </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        
+	
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="cafe.html">Café de altura</a></li>
+			<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="te.html">Tés y Tisanas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="chapata.html">Chapatas y Baguettes</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="sandw.html">Sandwiches y Ensaladas</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="crepas.html">Crepas</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="postres.html">Postres Artesanales</a></li>
+          </ul>
+        </li>
+		
+		  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Acerca de
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="quienes.html">¿Quiénes somos?</a></li>
+			<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="creat.html">Creatividad y conocimiento</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="charlas.html">Charlas de innovación</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="blog.html">Blog</a></li>
+          </ul>
+        </li>
+		  
+		<li class="nav-item">
+          <a class="nav-link" href="reservacion.html">Reservaciones</a>
+        </li>
+		  
+		<li class="nav-item">
+          <a class="nav-link" href="ubicaciones.html">Ubicaciones</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+<body>
+	 <header>
+	<div class="conteiner-fluid">
+	<h1 class="fw-bold text-light px-5 pt-3 pb-4 text-center">Reservaciones</h1>	 
+	</div>
+	</header>
+	
+	
+	<center><div class="container row m-0 p-0">
+	<div class="col-sm-5 mx-auto mx-4 my-4">
+	<form>
+	<div class="row g-2">
+ 	<div class="col-md">
+    <div class="form-floating">
+      <input type="email" class="form-control" class="floatingInputGrid" placeholder="name@example.com">
+      <label for="floatingInputGrid">Correo</label>
+    </div>
+ 	 </div>
+	</div>
+		
+		<br>
+ <div class="row g-2">
+  <div class="col-md">
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInputGrid" placeholder="dd/mm/aa">
+      <label for="floatingInputGrid">Fecha</label>
+    </div>
+  </div>
+	 
+   <div class="col-md">
+   	 <div class="form-floating">
+      <input type="email" class="form-control floatingInputGrid" placeholder="00:00 hrs">
+      <label for="floatingInputGrid">Hora</label>
+    	</div>
+	</div>
+</div>
+		
+		<br>
+<div class="row g-2">
+ <div class="col-md">
+    <div class="form-floating">
+      <input type="email" class="form-control floatingInputGrid" placeholder="name@example.com">
+      <label for="floatingInputGrid">Nombre</label>
+    </div>
+  </div>
+</div>
+		
+		<br>
+		<div class="row g-2">
+ <div class="col-md">
+    <div class="form-floating">
+      <input type="email" class="form-control floatingInputGrid" placeholder="000 0000 0000">
+      <label for="floatingInputGrid">Teléfono</label>
+    </div>
+  </div>
+</div>
+		
+		<br>
+		<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Comentarios</label>
+</div>
+		
+	<br>
+  <div class="form-check col-mb-8">
+    <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+    <label class="form-check-label" for="myCheck">Acepto las <a href="https://www.gob.mx/cms/uploads/attachment/file/92883/POLITICA_DE_PRIVACIDAD_INDAABIN.pdf">Politicas de Privacidad</a></label>
+    <div class="valid-feedback">Valido.</div>
+    <div class="invalid-feedback">Acepta para continuar.</div>
+  </div>
+	<br>
+		
+  <button type="submit" class="btn btn-primary px-auto">Enviar</button>
+</form>
+</div>
+
+
+		<div class="row col-md-6 pb-3 pt-3">
+	  <img src="circ.jpg"  class="img-fluid float-end">
+  </div>
+</div></center>
+	
+	<footer>
+	<div class="container pt-5">
+		<center><div class="row">
+		  <div class="col-3 mt-4 mx-auto">
+		    <a href="https://www.facebook.com/IsabelTownCafe"><img src="f.png" width="40px"  class="mx-3 mb-1"/></a> 
+			<a href="https://www.instagram.com/isabeltown/"><img src="i.png" width="40px" class="mx-3 mb-1"/></a>
+			<a href="https://api.whatsapp.com/send?phone=%2B5212461489544&data=AWD94RtC5tvmuYpJEZZt5pGi0LPUrmbQKbLSQ8k_ZoLfrStmA0H2x8lUPkrxATNFA25hEMntGfLstOAL3xPKPPIt_fvyu2jgIPDtky45ih-WOE8KetqPRyJT-9nqP2BbNjU-dEKG-E6ZWq7rgGGkVPSafL_LoIAUi7O9rMvyTGBl8pxo1RYmvW8LySdMPwh0Pj9owFC1yxL5ZaPnCFKaRZqPGnNwKRyEJqZYBCIBzUZGn7jny6Z74ArNt6JXkDcAkg0kFkupe0QE_A-S8DefCxJVz4O0k8VUeParOWbRGjhAVHPgIRs&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2-AjsBkkohJRDbKZHlP_GABaHguRAIm7eO1IUgFdjXo3h8lK-Pg0KYDlY"><img src="w.png" width="40px" class="mx-3 mb-1"/></a>
+			</div>
+			<div class="col-1 mx-auto"> <a href="index.html"><img src="images.png" width="100px" class=""/></a> 
+			</div>
+		  <div class="col-3 mt-5 mx-auto">
+			<a href="https://www.workcafe.com.mx/assets/pdf/AvisoLegal.pdf" class="link-light link-offset-2 link-underline link-underline-opacity-0 m-0 p-0">Aviso legal |</a>
+			<a href="https://www.gob.mx/cms/uploads/attachment/file/92883/POLITICA_DE_PRIVACIDAD_INDAABIN.pdf" class= "link-light link-offset-2 link-underline link-underline-opacity-0 m-0 p-0"> Política de privacidad</a>
+			</div>
+      </div></center>	
+	</div>
+	<section class="barra" style="height: 35px"></section>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

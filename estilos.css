@@ -1,0 +1,43 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+	color: deeppink;
+}
+footer{
+	 background-color: #02879A;
+}
+header{
+	background-color: #A4BDC1;
+}
+.barra {
+    background-color: #DB4779;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+#galeria .col-lg-4{
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+.card-body{
+	background-color: #DB4779;
+	color: white;
+}
+.quienes{
+    background-image: url(nosotros.jpg);
+    background-size: cover;
+    padding-bottom: 31%;	
+}.blog{
+    background-image: url(blog.jpg);
+    background-size: cover;
+    padding-bottom: 37%;
+    color: #02879A;	
+}
+h3{
+	color: #02879A;
+}
